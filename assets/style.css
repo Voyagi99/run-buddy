@@ -20,7 +20,7 @@
 
   }
   header h1 {
-display: flex;
+
     font-weight: bold;
     margin: 0;
     font-size: 36px;
@@ -39,7 +39,7 @@ display: flex;
     margin: 7px 0;
   
   }
-  header nav ul li {
+  header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -83,15 +83,13 @@ display: flex;
     justify-content: center;
     flex-wrap: wrap;
     background-image: url("./images/hero-bg.jpeg");
-    height: 600px;
     background-size: cover;
-    background-position: center;
-    position: relative;
+
   }
   .hero-form {
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
+
     color: #024e76;
     
     border-style: solid;
@@ -104,12 +102,10 @@ display: flex;
     border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 40%;
     margin: 3.5%;
     color: #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
+   width: 40%;
+   margin: 3.5%;
    
   }
 
